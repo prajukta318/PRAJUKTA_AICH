@@ -1,0 +1,147 @@
+/* mobile.css */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  header {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+  .logo img {
+    margin: 0;
+    width: 70px;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: #111;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    gap: 20px;
+  }
+  nav ul.show {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
+  .all-icons {
+    margin-left: auto;
+    gap: 15px;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column;
+    margin: 0;
+    padding: 30px 15px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .hero-text {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  .hero-text h2 {
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 14px;
+  }
+  .price-btn-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero-image {
+    margin: 20px auto 0;
+    max-width: 180px;
+  }
+  .social-icons {
+    display: none;
+  }
+
+  /* SPECIAL MENU */
+  .special-menu {
+    width: 100%;
+    margin: 20px 10px;
+    padding: 15px;
+    text-align: right;
+  }
+  .special-image {
+    display: block;
+    margin: 38px auto 0;
+    width: 120px;
+    height: auto;
+    margin-left: 30px;
+    word-spacing: 0.1px;
+  }
+
+  /* REVIEWS */
+  .review-section h3 {
+    font-size: 22px;
+  }
+  .review-wrapper {
+    gap: 20px;
+    padding: 0 10px;
+  }
+  .review-card {
+    flex: 0 0 260px;
+    padding: 20px;
+  }
+
+  /* FEW WORDS */
+  .coffee-image {
+    display: none; /* hide huge coffee img on mobile */
+  }
+  .few-words {
+    margin: 20px auto;
+    width: auto;
+    font-size: 18px;
+  }
+  .words-description {
+    padding: 15px;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* OUR CAFES */
+  .our-cafes {
+    padding: 60px 20px;
+  }
+  .our-cafes h2 {
+    font-size: 24px;
+  }
+
+  /* WHY US */
+  .features {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    width: 90%;
+    padding: 20px;
+    height: auto;
+  }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    font-size: 14px;
+  }
+  .contact-info {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  .footer-bottom {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
